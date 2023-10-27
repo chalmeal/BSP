@@ -1,39 +1,37 @@
-# じゃんけんゲーム
+### BSP-Game
 
-本コードはSwingでのじゃんけんゲームです。実装としてはシンプル且つ簡易的なコードで、細かな仕様は期待していません。
+* Language
+  * Java
+    * Swing
 
-## ディレクトリ構成
+## directory
 
 ```
 BSP ー src
          |
           ― actions
          |      |
-         |       ― Button.java（各手のボタンを表現します。）
+         |       ― Button.java(Various button expressions)
          |      |
-         |       ― Judge.java（勝敗引の結果を返します。）
+         |       ― Judge.java(results of a victory or defeat)
          |
           ― components
          |       |
-         |        ― ComputerHand.java（コンピュータがランダムで出す手を作成します。）
+         |        ― ComputerHand.java(Random computer items)
          |       |
-         |        ― Hands.java（プレイヤー、コンピュータが扱う手を表現します。）
+         |        ― Hands.java(Player and Computer expressions item)
          |
           ― makes
          |       |
-         |        ― PanelMaker.java（パネルを作成します。）
+         |        ― PanelMaker.java(Create panel)
          |       |
-         |        ― TextMaker.java（画面上に表示するテキストを作成します。）
+         |        ― TextMaker.java(Text to be displayed on screen)
          |
-          ― BspConfig.java（Swingでの画面上の設定を表現します。）
+          ― BspConfig.java(Represents an on-screen setting in Swing.)
          |
-          ― BspGames.java（じゃんけんアプリケーションを実行します。）
+          ― BspGames.java(Application run)
 ```
 
 ## License
 
-本コードは下記サイトを参考に作成しています。
-
-ロジック系は引用していますが、ディレクトリ構成の変更及び一部命名を変更した実装になります。
-
-参考：[【絶対できる！】Javaでのじゃんけんゲームの作り方](https://original-game.com/java-janken-game-program/)
+REFERENCE：[【絶対できる！】Javaでのじゃんけんゲームの作り方](https://original-game.com/java-janken-game-program/)
